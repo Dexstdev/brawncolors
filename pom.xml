@@ -9,21 +9,25 @@
     <version>1.0.0</version>
 
     <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <java.version>21</java.version>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
     </properties>
 
     <repositories>
+        <!-- Spigot repo -->
         <repository>
             <id>spigot-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
+        <!-- Engine repo -->
         <repository>
             <id>enginehub</id>
             <url>https://maven.enginehub.org/repo/</url>
         </repository>
     </repositories>
     <dependencyManagement>
+        <!-- BOM for all dependency -->
         <dependencies>
             <dependency>
                 <groupId>com.intellectualsites.bom</groupId>
@@ -36,6 +40,7 @@
     </dependencyManagement>
 
     <dependencies>
+        <!-- Spigot API -->
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
@@ -43,10 +48,12 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
+        <!-- Fastasnycworldedit Core -->
             <groupId>com.fastasyncworldedit</groupId>
             <artifactId>FastAsyncWorldEdit-Core</artifactId>
             <scope>provided</scope>
         </dependency>
+        <!-- Fastasnycworldedit Bukkit -->
         <dependency>
             <groupId>com.fastasyncworldedit</groupId>
             <artifactId>FastAsyncWorldEdit-Bukkit</artifactId>
@@ -59,10 +66,12 @@
             </exclusions>
         </dependency>
         <dependency>
+        <!-- Plotsquared Core -->
             <groupId>com.intellectualsites.plotsquared</groupId>
             <artifactId>plotsquared-core</artifactId>
             <scope>provided</scope>
         </dependency>
+        <!-- Plotsquared Bukkit-->
         <dependency>
             <groupId>com.intellectualsites.plotsquared</groupId>
             <artifactId>plotsquared-bukkit</artifactId>
