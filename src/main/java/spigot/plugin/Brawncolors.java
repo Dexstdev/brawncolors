@@ -1,5 +1,14 @@
 package spigot.plugin;
 
+/*
+ *
+ *  ,--.           Project: Brawncolors
+ *  |  |-.  ,---.  author: Dexst
+ *  | .-. '| .--'  License: GPL-3.0
+ *  | `-' |\ `--. 
+ *   `---'  `---' 
+ *              
+ */
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
