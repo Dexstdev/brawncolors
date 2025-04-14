@@ -1,21 +1,41 @@
-# Security Policy
+## Security and Distribution Policy
 
-## Supported Versions
+### Supported Minecraft Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+This plugin is compatible with the following **Minecraft Java Edition** versions:
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| Minecraft Version | Supported |
+|-------------------|-----------|
+| 1.13.x            | ✅        |
+| 1.14.x            | ✅        |
+| 1.15.x            | ✅        |
+| 1.16.x            | ✅        |
+| 1.17.x            | ✅        |
+| 1.18.x            | ✅        |
+| 1.19.x            | ✅        |
+| 1.20.x            | ✅        |
+| 1.21.x            | ✅        |
+| Latest version    | ✅        |
 
-## Reporting a Vulnerability
+This plugin is optimized for servers using **SpigotMC** or **PaperMC** for the best compatibility and performance.
 
-Use this section to tell people how to report a vulnerability.
+---
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+### Official Distribution
+
+The official version of **BRAWNCOLORS** will only be distributed through the following trusted sources:
+
+- [SpigotMC](https://www.spigotmc.org/)
+- [PaperMC](https://papermc.io/)
+- The official website of the developer
+- [GitHub - Official Repository](https://github.com/Dexstdev/brawncolors?tab=readme-ov-file)
+
+Any other distribution channel is **not authorized** and may contain unsafe or modified versions. For your safety and the stability of your server, always download from the official sources.
+
+---
+
+### Security & Updates
+
+- Every release is tested and verified to ensure it's free of malicious or unsafe code.
+- Source code is publicly available in the official GitHub repository.
+- It is strongly recommended to always use the **latest version** to ensure maximum security and stability.
