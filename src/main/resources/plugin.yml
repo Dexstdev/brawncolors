@@ -4,3 +4,5 @@ main: spigot.plugin.Branwcolors
 api-version: 1.13
 author: Dexst
 description: A easy texturing plugin for minecraft.
+depend: [Plotsquare, worldedit,]
+softdepend: [FastAsasnycWorldedit,]

@@ -48,7 +48,7 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-        <!-- Fastasnycworldedit Core -->
+            <!-- Fastasnycworldedit Core -->
             <groupId>com.fastasyncworldedit</groupId>
             <artifactId>FastAsyncWorldEdit-Core</artifactId>
             <scope>provided</scope>
@@ -66,7 +66,7 @@
             </exclusions>
         </dependency>
         <dependency>
-        <!-- Plotsquared Core -->
+            <!-- Plotsquared Core -->
             <groupId>com.intellectualsites.plotsquared</groupId>
             <artifactId>plotsquared-core</artifactId>
             <scope>provided</scope>
