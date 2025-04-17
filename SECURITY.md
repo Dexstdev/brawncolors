@@ -5,7 +5,7 @@
 This plugin is compatible with the following **Minecraft Java Edition** versions:
 
 | Minecraft Version | Supported |
-|-------------------|-----------|
+|-------------------|----------|
 | 1.12.x            | ✅        |
 | 1.13.x            | ✅        |
 | 1.14.x            | ✅        |
